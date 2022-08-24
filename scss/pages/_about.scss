@@ -1,0 +1,13 @@
+@use '../abstracts' as v;
+
+.part1, .part3 {
+    background-color: v.$theme_color !important;
+    color: #fff !important;
+
+}
+
+.part6 {
+    p {
+        text-align: justify;
+    }
+}

@@ -1,0 +1,25 @@
+@use '../abstracts/variables' as v;
+
+// Adjust height according to the class name
+$n: 100;
+@while $n > 0 {
+  .h-#{$n} { height: 1% * $n; }
+  $n: $n - 1;
+}
+
+// Adjust width according to the class name
+$k: 100;
+@while $k > 0 {
+  .w-#{$k} { width: 1% * $k; }
+  $k: $k - 1;
+}
+
+// @mixin nav_item_link($n) {
+//     &:nth-child(#{$n}):hover, &:nth-child(#{$n}):focus, &:nth-child(#{$n}):active, &:nth-child(#{$n}) {
+//         color: #fff !important;
+//       color: v.$font_color !important;
+//     }
+//   }
+
+
+// $font_color: #fff;

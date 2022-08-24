@@ -1,0 +1,27 @@
+@use '../abstracts' as v;
+
+
+.part1 {
+    border-bottom: v.$font_color solid 4px;
+}
+
+
+.part1 > div {
+    span {
+        color: v.$font_color !important;
+    }
+}
+
+
+nav {
+    a {
+        color: #fff !important;
+        &:hover, &:focus, &:active {
+            color: v.$font_color !important;
+        }
+    }
+}
+
+
+
+  

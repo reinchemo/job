@@ -1,0 +1,13 @@
+@use '../abstracts' as v;
+
+.part1, .part3, .part5 {
+    background-color: v.$theme_color !important;
+    color: #fff !important;
+}
+
+.part2 {
+    background: url(../img/showcase.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
